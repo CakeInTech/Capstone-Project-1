@@ -29,7 +29,7 @@ header {
   padding: 5px 20px;
   position: sticky;
   width: 100%;
-  background-color: #f8f8f9;
+  background: rgba(248, 248, 249, 0.822);
 }
 
 .mobile-version {
@@ -68,7 +68,8 @@ header {
   background-color: aliceblue;
   background: url(images/dry.png);
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .container1 {

@@ -141,20 +141,22 @@ header {
   flex-direction: column;
   gap: 20px;
   padding: 0;
+  padding-bottom: 60PX;
 }
 
 .items {
- display: flex;
+ display: grid;
+ grid-template-columns: 1fr 1.5fr 3fr;
  gap: 20px;
  color: #fff;
  align-items: center;
+ justify-content: center;
  background-color: #3b4046;
  height: 100px;
- width: 100%px;
+ width: 100%;
 }
 
 .items p {
-  /* width: 70%; */
   font-size: 12px;
   margin: 0;
   padding: 10px;
@@ -174,9 +176,30 @@ header {
   display: flex;
   text-decoration: none;
   font-family: 'lato', sans-serif;
+  font-size: 10px;
+  font-weight: 800;
   background-color: #ff4f37;
   padding: 30px;
-  width: fit-content;
+  width: 60%;
   color: #fff;
   margin: 10px auto;
+  justify-content: center;
+}
+
+.pagebtn:hover {
+    /*  */
+}
+
+
+/* -------------------Third-page-------------------------- */
+
+
+.thirdpage {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 15px 14px 15px;
+}
+
+.thirdpage .underline {
+  background-color: #ffa295;
 }

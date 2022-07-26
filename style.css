@@ -25,7 +25,7 @@
 /* -----------------HEADER SECTION------------------------ */
 
 header {
-  background: #fff;
+  background: aliceblue;
   line-height: 30px;
   padding: 5px 20px;
 }
@@ -64,12 +64,15 @@ header {
 .firstpage {
   padding: 40px 15px;
   background-color: aliceblue;
+  background: url(images/dry.png);
+  background-position: center;
+  background-size: 100%;
 }
 
 .container1 {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 35px;
   padding: 0 0;
 }
 
@@ -78,12 +81,14 @@ header {
 }
 
 .hell {
+  color: #fb422a;
   font-family: 'lato', sans-serif;
   font-size: 25px;
   font-weight: 500;
 }
 
 .heading-1 {
+  color: #fb422a;
   font-family: 'COCOGOOSE', sans-serif;
   font-size: 30px;
   font-weight: 800;

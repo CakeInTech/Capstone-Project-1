@@ -22,19 +22,21 @@
   vertical-align: baseline;
 }
 
+p {
+  margin: 0 !important;
+}
+
 /* -----------------HEADER SECTION------------------------ */
 
 header {
   line-height: 30px;
   padding: 5px 20px;
-  position: sticky;
+  position: absolute;
   width: 100%;
-  background: rgba(248, 248, 249, 0.822);
 }
 
 .mobile-version {
   display: flex;
-  flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
 }
@@ -64,7 +66,7 @@ header {
 /* -----------------FIRST-PAGE------------------- */
 
 .firstpage {
-  padding: 40px 15px;
+  padding: 50px 15px;
   background-color: aliceblue;
   background: url(images/dry.png);
   background-position: center;
@@ -75,12 +77,12 @@ header {
 .container1 {
   display: flex;
   flex-direction: column;
-  gap: 27px;
+  gap: 39px;
   padding: 0 0;
 }
 
 .title {
-  padding: 30px 0;
+  padding: 60px 0 0 0;
 }
 
 .hell {
@@ -155,7 +157,7 @@ header {
 
 .items {
  display: grid;
- grid-template-columns: 1fr 1fr 3fr;
+ grid-template-columns: 1fr 0.9fr 3fr;
  gap: 20px;
  color: #fff;
  height: 100px;
@@ -172,7 +174,6 @@ header {
 }
 
 .items img {
-  height: 60px;
   width: 60px;
   padding: 10px;
 }
@@ -222,19 +223,21 @@ header {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 40px;
 }
 
 .cv {
   display: flex;
   flex-direction: row;
+  width: 100%;
+  gap: 25px;
 }
 
 .parent {
   position: relative;
   top: 0;
   left: 0;
-  width: 30%;
+  width: 40%;
 }
 
 .main-img {
@@ -242,11 +245,50 @@ header {
   top: 10px;
   left: 12px;
   z-index: 10;
-  width: 85%;
+  width: 80%;
 }
 
-.discriptions {
+.second-img {
+  width: 45%;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.descriptions {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 60%;
+  margin: 0 0 70px 0;
+}
+
+.descriptions h3 {
+  color: #2e2e2e;
+  font-family: 'lato', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.descriptions a {
+  color: #ff8b7d;
+  text-decoration: none;
+  font-family: 'lato', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.descriptions p {
+  font-family: 'lato', sans-serif;
+  font-size: 12px;
+}
+
+.underline1 {
+  width: 30px;
+  height: 3px;
+  background-color: #dedede;
+  margin: 10px 0;
 }

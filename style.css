@@ -27,12 +27,13 @@
 header {
   line-height: 30px;
   padding: 5px 20px;
-  position: fixed;
+  position: sticky;
   width: 100%;
+  background-color: #f8f8f9;
 }
 
 .mobile-version {
-display: flex;
+  display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
@@ -159,7 +160,7 @@ display: flex;
  align-items: center;
  justify-content: center;
  background-color: #3b4046;
- height: 100px;
+ /* height: 100px; */
  width: 100%;
 }
 
@@ -186,8 +187,8 @@ display: flex;
   font-size: 10px;
   font-weight: 800;
   background-color: #ff4f37;
-  padding: 30px;
-  width: 60%;
+  padding: 30px 10px;
+  width: 50%;
   color: #fff;
   margin: 10px auto;
   justify-content: center;

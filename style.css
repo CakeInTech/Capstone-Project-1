@@ -25,13 +25,14 @@
 /* -----------------HEADER SECTION------------------------ */
 
 header {
-  background: aliceblue;
   line-height: 30px;
   padding: 5px 20px;
+  position: fixed;
+  width: 100%;
 }
 
 .mobile-version {
-  display: flex;
+display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
@@ -95,6 +96,7 @@ header {
 }
 
 .discription { 
+  background-color: #f8f8f9;
   text-align: left;
   padding: 5px;
   border: 3px solid #fff;

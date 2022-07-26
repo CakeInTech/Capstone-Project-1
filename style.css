@@ -75,7 +75,7 @@ header {
 .container1 {
   display: flex;
   flex-direction: column;
-  gap: 35px;
+  gap: 27px;
   padding: 0 0;
 }
 
@@ -155,13 +155,13 @@ header {
 
 .items {
  display: grid;
- grid-template-columns: 1fr 1.5fr 3fr;
+ grid-template-columns: 1fr 1fr 3fr;
  gap: 20px;
  color: #fff;
+ height: 100px;
  align-items: center;
  justify-content: center;
  background-color: #3b4046;
- /* height: 100px; */
  width: 100%;
 }
 
@@ -209,6 +209,44 @@ header {
   padding: 40px 15px 14px 15px;
 }
 
+.thirdpage h2 {
+  color: #1c1f24;
+}
+
 .thirdpage .underline {
   background-color: #ffa295;
+  width: 80px;
+}
+
+.featured-cards {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cv {
+  display: flex;
+  flex-direction: row;
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 30%;
+}
+
+.main-img {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  z-index: 10;
+  width: 85%;
+}
+
+.discriptions {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }

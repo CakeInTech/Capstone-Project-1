@@ -1,18 +1,19 @@
-@media (min-width: 769px) {
+@media(min-width: 769px) {
+
   .container2 {
     display: flex;
     flex-direction: column;
     gap: 5rem;
-  }
+}
 
   .cards1 {
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    gap: 5px; 
     justify-content: center;
-  }
+}
 
-  .items {
+.items {
     background-color: #3b4046;
     display: flex;
     flex-direction: column;

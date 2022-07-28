@@ -1,158 +1,159 @@
- .firstpage {
-    background: none;
-    background-color: #f7f7f8;
- }
-
- header{
-    width: 80%;
- }
- 
- .heading {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-   font-family: 'lato ', sans-serif;
-   align-items: center;
-   padding-top: 40px;
-    
- }
-
- .abouh {
-    font-family: 'COCOGOOSE', sans-serif;
-    color: #fa4128;
-    text-align: center;
- }
-
- .aboup {
-    text-align: center;
-    font-weight: 500;
-    background-color: white;
-    font-size: 12px;
-    line-height: 25px;
-    border-radius: 1px solid #dfdfdf;
- }
-
- .contacta {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    letter-spacing: 2px;
-    line-height: 20px;
-    color: #676767;
- }
-
- .contacta a {
-    text-decoration: none;
-    color: #474747;
- }
-
- .aboutlogo {
-    background-color: #fff;
-    padding: 30px 20px;
-    border: 2px solid #f3f3f3;
- }
-
- .information {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    font-family: 'lato', sans-serif;
- }
-
- .information p {
-    text-align: center;
-    font-size: 18px;
-    line-height: 30px;
- }
-
- .information .icon {
-    border: 2px solid #f4f4f4;
-    padding: 50px;
- }
-
- .past {
-    padding: 50px 0;
-    font-family: 'lato', sans-serif;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    align-items: center;
- }
-
- .past p {
-    text-align: center;
- }
-
- .pastimg {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
- }
-
- .past img {
-    width: 300px;
- }
-
- .dlogo {
-    width: 30%;
- }
-
- .dtext {
-    width: 30%; 
- }
-
- .rights1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    color: #656567;
-    font-family: "lato", sans-serif;
+.firstpage {
+  background: none;
+  background-color: #f7f7f8;
 }
 
- @media (min-width: 768px) {
-    header {
-        width: 99%;
-    }
-    .heading {
-        padding-top: 100px;
-        background-image: url(/images/about_bg_01.png);
-        background-size: 100%;
-        background-repeat: no-repeat;
-    }
+header {
+  width: 80%;
+}
 
-    .abouh {    
-        font-size: 40px;   
-        width: 800px;
-    }
-    .aboup {
-        width: 800px;
-    }
+.heading {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: 'lato ', sans-serif;
+  align-items: center;
+  padding-top: 40px;
+}
 
-    .contacta {
-        width: 600px;
-    }
+.abouh {
+  font-family: 'COCOGOOSE', sans-serif;
+  color: #fa4128;
+  text-align: center;
+}
 
-    .information p {
-        width: 500px;
-    }
+.aboup {
+  text-align: center;
+  font-weight: 500;
+  background-color: white;
+  font-size: 12px;
+  line-height: 25px;
+  border: 1px solid #dfdfdf;
+}
 
-    .pastimg {
-        flex-direction: row;
-    }
+.contacta {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 2px;
+  line-height: 20px;
+  color: #676767;
+}
 
-    .pastimg img {
-        width: 350px;
-    }
+.contacta a {
+  text-decoration: none;
+  color: #474747;
+}
 
-    .sponsors {
-        display: none;
-    }
+.aboutlogo {
+  background-color: #fff;
+  padding: 30px 20px;
+  border: 2px solid #f3f3f3;
+}
 
-    .rights1 {
-        background-color: #474747;
-        padding: 50px;
-    }
- }
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  font-family: 'lato', sans-serif;
+}
+
+.information p {
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.information .icon {
+  border: 2px solid #f4f4f4;
+  padding: 50px;
+}
+
+.past {
+  padding: 50px 0;
+  font-family: 'lato', sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.past p {
+  text-align: center;
+}
+
+.pastimg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.past img {
+  width: 300px;
+}
+
+.dlogo {
+  width: 30%;
+}
+
+.dtext {
+  width: 30%;
+}
+
+.rights1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #656567;
+  font-family: "lato", sans-serif;
+}
+
+@media (min-width: 768px) {
+  header {
+    width: 99%;
+  }
+
+  .heading {
+    padding-top: 100px;
+    background-image: url(/images/about_bg_01.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .abouh {
+    font-size: 40px;
+    width: 800px;
+  }
+
+  .aboup {
+    width: 800px;
+  }
+
+  .contacta {
+    width: 600px;
+  }
+
+  .information p {
+    width: 500px;
+  }
+
+  .pastimg {
+    flex-direction: row;
+  }
+
+  .pastimg img {
+    width: 350px;
+  }
+
+  .sponsors {
+    display: none;
+  }
+
+  .rights1 {
+    background-color: #474747;
+    padding: 50px;
+  }
+}

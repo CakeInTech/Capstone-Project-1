@@ -1,4 +1,4 @@
-@media(min-width: 764px) {
+@media (min-width: 764px) {
   .thirdpage {
     /* width: 100%; */
     margin: 0 auto;
@@ -7,17 +7,14 @@
   .featured-cards {
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: baseline;
     height: 500px;
-
   }
 
   .cv {
     width: 40%;
   }
-
 }
 
-body { 
+body {
   width: 100%;
 }

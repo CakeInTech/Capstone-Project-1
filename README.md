@@ -26,11 +26,6 @@
 - Twitter: [@twitterhandle](https://twitter.com/MohamedCK0)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohamed-abdulhakim-2868521b6/)
 
-👤 **Praises tula**
-
-- GitHub: [@praisespjmt](https://github.com/PraisesPJMT)
-- Twitter: [@praisespjmt](https://twitter.com/PraisesPJMT)
-- LinkedIn: [Praises Musa Tula](https://www.linkedin.com/in/praises-tula-9233aa76)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!

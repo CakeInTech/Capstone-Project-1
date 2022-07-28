@@ -13,7 +13,7 @@
 ## Live Demo (if available)
 
 [Live Demo Link](https://mohamedck.github.io/Capstone-Project-1/)
-
+[Project Description](https://www.loom.com/share/aa07a004e95a4ed9b09347fb085cdd35)
 
 
 
@@ -38,8 +38,9 @@ Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Give a ⭐️ if you like this project!  
 
+This template was inspired by [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 ## Acknowledgments
 
 - [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
@@ -49,3 +50,4 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+

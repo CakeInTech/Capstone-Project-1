@@ -50,3 +50,4 @@ This template was inspired by [Cindy Shin](https://www.behance.net/gallery/29845
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+

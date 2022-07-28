@@ -62,4 +62,18 @@
     margin-right: 30px;
     margin-bottom: 12px;
   }
+
+  .mininav {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'lato', sans-serif;
+    background-color: #3e3e3e;
+  }
+  
+  .mininav a {
+    display: flex-inline;
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+  }
 }

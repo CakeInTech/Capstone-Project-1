@@ -1,26 +1,3 @@
- */
-
- html, body, div, span, applet, object, iframe,
- h1, h2, h3, h4, h5, h6, p, blockquote, pre,
- a, abbr, acronym, address, big, cite, code,
- del, dfn, em, img, ins, kbd, q, s, samp,
- small, strike, strong, sub, sup, tt, var,
- b, u, i, center,
- dl, dt, dd, ol, ul, li,
- fieldset, form, label, legend,
- table, caption, tbody, tfoot, thead, tr, th, td,
- article, aside, canvas, details, embed, 
- figure, figcaption, footer, header, hgroup, 
- menu, nav, output, ruby, section, summary,
- time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
 
 p {
   margin: 0 !important;
@@ -30,27 +7,23 @@ p {
 
 header {
   line-height: 30px;
-  padding: 5px 20px;
   position: absolute;
   width: 100%;
 }
 
-.mobile-version {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.desktop-version {
+  display: none;
 }
 
 .menu-cn {
   position: fixed;
-  background-color: rgba(72, 74, 73, 0.6);
+  background-color: rgba(112, 124, 118, 0.6);
   backdrop-filter: blur(7px);
-  display: none; 
+  display: none;
   align-items: center;
   gap: 40px;
   flex-direction: column;
   list-style: none;
-  animation: name duration timing-function delay iteration-count direction fill-mode;
   width: 80%;
   left: 0;
   top: 0;
@@ -85,11 +58,11 @@ header {
   padding: 20px 20%;
   color: #ff4f37;
   border: 1px solid white;
-  font-size: 400px;
+  font-size: 40px;
 }
 
 .ham-menu {
-  width: 35px; 
+  width: 35px;
   padding-top: 10px;
 }
 
@@ -97,9 +70,9 @@ header {
 /* -----------------FIRST-PAGE------------------- */
 
 .firstpage {
-  padding: 50px 15px;
-  background-color: aliceblue;
-  background: url(images/dry.png);
+  width
+  padding: 50px 0;
+  background: url(/images/dry.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -130,7 +103,7 @@ header {
   font-weight: 800;
 }
 
-.discription { 
+.discription {
   background-color: #f8f8f9;
   text-align: left;
   padding: 5px;
@@ -149,21 +122,21 @@ header {
 }
 
 .location {
-  color: #5a5a5a; 
+  color: #5a5a5a;
 }
 
 
-/* -------------------------second-page------------------------------ */
+/* ---------------------second-page--------------- */
 
 .secondpage {
-    display: flex;
-    justify-content: center;
-    padding: 40px 15px 14px 15px;
-    background-color: #272c32;
+  display: flex;
+  justify-content: center;
+  padding: 40px 15px 14px 15px;
+  background-color: #272c32;
 }
 
 .container2 {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .second-heading {
@@ -179,24 +152,23 @@ header {
   width: 60px;
 }
 
-.cards1 { 
+.cards1 {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 0;
-  padding-bottom: 60PX;
+  padding-top: 20px;
+  padding-bottom: 60px;
 }
 
 .items {
- display: grid;
- grid-template-columns: 1fr 0.9fr 3fr;
- gap: 20px;
- color: #fff;
- height: 100px;
- align-items: center;
- justify-content: center;
- background-color: #3b4046;
- width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 0.9fr 3fr;
+  gap: 20px;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  background-color: #3b4046;
+  width: 100%;
 }
 
 .items p {
@@ -206,7 +178,7 @@ header {
 }
 
 .items img {
-  width: 100px;
+  width: 60px;
   padding: 10px;
 }
 
@@ -229,12 +201,10 @@ header {
 }
 
 .pagebtn:hover {
-    /*  */
+  color: #e84c39;
 }
 
-
 /* -------------------Third-page-------------------------- */
-
 
 .thirdpage {
   display: flex;
@@ -263,13 +233,12 @@ header {
   flex-direction: row;
   width: 100%;
   gap: 30px;
-
 }
 
-@media (max-width: 380px){
-    .cv {
-      flex-wrap: wrap;
-    }
+@media (max-width: 380px) {
+  .cv {
+    flex-wrap: wrap;
+  }
 }
 
 .parent {
@@ -290,7 +259,6 @@ header {
   justify-content: flex-start;
   align-items: flex-start;
   width: 60%;
-
 }
 
 .descriptions h3 {
@@ -319,4 +287,64 @@ header {
   height: 3px;
   background-color: #dedede;
   margin: 10px 0;
+}
+
+
+
+/* ------------------FOOTER------------------ */
+
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #414246;
+  padding: 30px;
+  
+}
+
+.second-heading {
+  padding: 0;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.dlogo {
+  width: 50px;
+}
+
+.dtext {
+  text-decoration: none;
+  color: #272c32;
+  font-family: 'late', sans-serif;
+  font-size: 30px;
+}
+
+.sponsors {
+  margin: 0 auto;
+}
+
+.sponsors img {
+  margin: 12px;
+  height: 50px;
+}
+
+.legal {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background: #f2f2f2;
+    padding: 50px;
+    justify-content: center;
+}
+
+.rights {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #656567;
+    font-family: "lato", sans-serif;
 }

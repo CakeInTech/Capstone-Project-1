@@ -1,0 +1,63 @@
+@media (min-width: 768px) {
+  header {
+    background-color: #fff;
+    padding: 0;
+  }
+
+  .desktop-version {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .mobile-version {
+    display: none;
+  }
+
+  .machigan {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 60%;
+    padding-right: 70px;
+    gap: 35px;
+  }
+
+  .machigan a {
+    color: #9f9f9f;
+    text-decoration: none;
+    font-family: 'lato', sans-serif;
+    font-size: 20px;
+  }
+
+  .machigan a:hover {
+    color: #fb422a;
+  }
+
+  .icon {
+    display: flex;
+    align-items: center;
+  }
+
+  .dlogo {
+    width: 50px;
+  }
+
+  .dtext {
+    text-decoration: none;
+    font-family: "COCOGOOSE", sans-serif;
+    color: #3d3d3d;
+  }
+
+  .enrol {
+    padding: 15px 20px;
+    font-family: 'COCOGOOSE', sans-serif;
+    border: 7px solid #fb422a;
+    text-decoration: none;
+    color: #3d3d3d;
+    margin-right: 30px;
+    margin-bottom: 12px;
+  }
+}

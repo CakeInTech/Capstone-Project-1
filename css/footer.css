@@ -1,0 +1,42 @@
+@media(min-width: 768px) {
+    .footer {
+      display: flex;
+      flex-direction: column;
+      background-color: #414246;
+      padding: 30px;
+      
+    }
+    
+    .sponsors {
+        width: fit-content;
+        display: flex;
+        flex-direction: row;
+        padding: 50px 0;
+        gap: 5%; 
+    }
+    
+    .sponsors img {
+      height: 50px;
+    }
+    
+    .legal {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        background: #f2f2f2;
+        padding: 50px;
+        align-items: center;
+    }
+
+    .rights {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        color: #656567;
+        font-family: "lato", sans-serif;
+    }
+}
+
+section {
+  font-family: 'lato', sans-serif;
+}

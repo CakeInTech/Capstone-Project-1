@@ -1,0 +1,28 @@
+@media(min-width: 768px) {
+  .firstpage {
+    position: static;
+    background-image: url(/images/main_big.png);
+    background-position: top 10%;
+    background-size: cover;
+    padding-top: 10%;
+
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .container1 {
+    gap: 15px;
+    padding-top: 20px;
+  }
+
+  .heading-1 {
+    max-width: 80%;
+    font-size: 40px;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .discription p {
+    font-size: 25px;
+  }
+}

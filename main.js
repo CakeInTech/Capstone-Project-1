@@ -1,16 +1,16 @@
-const active = document.querySelector('.ham-menu');
-const close = document.querySelector('.link');
-const menu = document.querySelector('.menu-cn');
+const active = document.querySelector('.ham-menu')
+const close = document.querySelector('.link')
+const menu = document.querySelector('.menu-cn')
 
 active.addEventListener('click', () => {
-  menu.style.display = 'flex';
-  active.style.display = 'none';
-});
+    menu.style.display = 'flex';
+    active.style.display = 'none';
+})
 
 close.addEventListener('click', () => {
-  menu.style.display = 'none';
-  active.style.display = 'block';
-});
+    menu.style.display = 'none';
+    active.style.display = 'block'
+})
 
 // -----------TEMPLATE LITTERALS-----------//
 
@@ -67,5 +67,5 @@ featuredTeachers.innerHTML = ` <div class="second-heading">
     </div>
 </div>
 
-</div>`;
+</div>`
 thirdpage.appendChild(featuredTeachers);
